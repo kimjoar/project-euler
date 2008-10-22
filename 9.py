@@ -1,3 +1,5 @@
+# Find the only Pythagorean triplet, {a, b, c}, for which a + b + c = 1000.
+
 def triplet():
   for a in range(1, 996):
     for b in range(a + 1, 997):

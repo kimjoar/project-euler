@@ -1,3 +1,5 @@
+# How many letters would be needed to write all the numbers in words from 1 to 1000?
+
 textual = {}
 textual[1] = "one"
 textual[2] = "two"

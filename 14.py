@@ -1,3 +1,7 @@
+# Find the longest sequence using a starting number under one million.
+# n -> n/2 (n is even)
+# n -> 3n + 1 (n is odd)
+
 def sequence_length(number):
   length, n = 0, number
 
