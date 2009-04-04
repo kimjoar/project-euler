@@ -1,6 +1,3 @@
-import time
-tStart = time.time()
-
 # Find the maximum sum travelling from the top of the triangle to the base.
 
 f = open('67.txt', 'r')
@@ -17,6 +14,3 @@ for i in xrange(1, len(triangle)):
     triangle[i][j] += max(triangle[i - 1][j], triangle[i - 1][j - 1])
 
 print max(triangle[-1])
-
-print "Run Time = " + str(time.time() - tStart)
-
