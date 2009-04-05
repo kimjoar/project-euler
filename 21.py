@@ -1,8 +1,5 @@
 # Evaluate the sum of all amicable pairs under 10000.
 
-import time
-tStart = time.time()
-
 def factorize(n):
   factors, max, i = [1], n, 2
   while i <= max:
@@ -26,5 +23,3 @@ for i in xrange(2, 10000):
     ambicle.append(i)
 
 print sum(ambicle)
-
-print "Run Time = " + str(time.time() - tStart)
